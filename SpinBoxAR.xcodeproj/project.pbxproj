@@ -37,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EBB77A5025D4541B002C4A7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBC0719A25D2D917005DFB09 /* ViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		EBC0718A25D2D917005DFB09 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +66,7 @@
 			children = (
 				EBC0719625D2D917005DFB09 /* AppDelegate.swift */,
 				EBC0719825D2D917005DFB09 /* SceneDelegate.swift */,
-				EBC0719A25D2D917005DFB09 /* ViewController.swift */,
+				EBB77A5025D4541B002C4A7B /* View */,
 				EBC0719C25D2D917005DFB09 /* Main.storyboard */,
 				EBC0719F25D2D918005DFB09 /* Assets.xcassets */,
 				EBC071A125D2D918005DFB09 /* LaunchScreen.storyboard */,
@@ -294,6 +302,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pkoyushev.SpinBoxAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -314,6 +323,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pkoyushev.SpinBoxAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
